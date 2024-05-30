@@ -1,4 +1,5 @@
 import csv
-input_file = csv.DictReader(open("Social Links Availability.csv"))
-for row in input_file:
+social_link_avail_file = csv.DictReader(open("Social Links Availability.csv"))
+for row in social_link_avail_file:
     print(row)
+    print(type(social_link_avail_file))
