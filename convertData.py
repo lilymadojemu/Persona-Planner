@@ -1,5 +1,9 @@
 import csv
-social_link_avail_file = csv.DictReader(open("Social Links Availability.csv"))
+import json
+
+social_link_avail= csv.DictReader(open("Social_Links_Avail.csv"))
 for row in social_link_avail_file:
     print(row)
-    print(type(social_link_avail_file))
+link_ep_avail= csv.DictReader(open("Link_Eps_Avail.csv"))
+for row in social_link_avail_file:
+    print(row)
