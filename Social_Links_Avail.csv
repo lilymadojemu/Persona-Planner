@@ -1,0 +1,23 @@
+Arcana,Character,Auto_Rank,Start,Time of day,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday,Holiday,Rank1_Date,Rank2_Date,Rank3_Date,Rank4_Date,Rank5_Date,Rank6_Date,Rank7_Date,Rank8_Date,Rank9_Date,Rank10_Date,Location
+Aeon,Aigis,FALSE,01/08,Day ☀️,✔️,✔️,✔️,✔️,✔️,✔️,FALSE,FALSE,,,,,,,,,,,Classroom 2-F
+Fool,SEES Members,TRUE,04/18,,,,,,,,,,04/18,04/20,05/09,07/07,07/22,11/02,11/04,11/28,11/28,12/31,
+Magician,Kenji Tomochika,FALSE,04/22,Day ☀️,-,TRUE,-,TRUE,TRUE,FALSE,FALSE,FALSE,,,,,,,,,,,Classroom 2-F
+Chariot,Kazushi Miamoto,FALSE,04/23,Day ☀️,TRUE,TRUE,-,TRUE,TRUE,FALSE,FALSE,FALSE,,,,,,,,,,,Classroom 2-F / Gym Hallway
+Strength,Yuko Nishiwaki,FALSE,04/24,Day ☀️,-,-,TRUE,-,-,TRUE,FALSE,FALSE,,,,,,,,,,,2F Classroom Hallway
+Hierophant,Bunkichi Kitamura,FALSE,04/25,Day ☀️,-,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,Iwatodai Station Strip Mall 1F; Bookworms
+Emperor,Hidetoshi Odagari,FALSE,04/27,Day ☀️,TRUE,-,TRUE,-,TRUE,FALSE,FALSE,FALSE,,,,,,,,,,,Student Council Room
+Hermit,Maya,FALSE,04/29,Day ☀️,*,*,*,*,*,FALSE,TRUE,TRUE,,,,,,,,,,,Desk in Your Room
+Hanged-Man,Maiko Oohashi,FALSE,05/06,Day ☀️,TRUE,-,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,,,,,,,,,,,Naganaki Shrine
+Justice,Chihiro Fushimi,FALSE,05/07,Day ☀️,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,,,,,,,,,,,2F Classroom Hallway
+Temperance,Bebe,FALSE,05/26,Day ☀️,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,,,,,,,,,,,2F Classroom Hallway / 1F Laboratory Hallway (Home Ec Room)
+Death,Pharos,TRUE,06/12,,,,,,,,,,06/12,07/12,07/12,08/07,08/07,09/12,10/06,10/06,11/04,11/04,
+Fortune,Keisuke Hiraga,FALSE,06/17,Day ☀️,FALSE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,,,,,,,,,,1F Laboratory Hallway (Art Club Room)
+Priestess,Fụuka Yamagishi,FALSE,06/19,Day ☀️,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,,,,,,,,,,,2F Classroom Hallway
+Lovers,Yukari Takeba,FALSE,07/25,Day ☀️,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,,,,,,,,,,,Classroom 2-F
+Star,Mamoru Hayase,FALSE,08/02,Day ☀️,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,TRUE,TRUE,,,,,,,,,,,Iwatodai Station Strip Mall 1F
+Sun,Akinari Kamiki,FALSE,08/23,Day ☀️,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE,,,,,,,,,,,Naganaki Shrine
+Empress,Mitsuru Kirijo,FALSE,11/21,Day ☀️,*,TRUE,TRUE,TRUE,*,TRUE,FALSE,FALSE,,,,,,,,,,,1F Faculty Office Hallway
+Judgment,SEES Members,FALSE,12/31,Evening 🌛,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,
+Moon,Nozomi Suemitsu,FALSE,,Day ☀️,TRUE,✔️TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,Paulownia Mall
+Devil,President Tanaka,FALSE,,Evening 🌛,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,TRUE,,,,,,,,,,,Paulownia Mall
+Tower,Mutatsu,FALSE,,Evening 🌛,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,TRUE,TRUE,,,,,,,,,,,Club Escapade
