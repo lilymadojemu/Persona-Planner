@@ -1,0 +1,178 @@
+[
+    {
+        "Arcana": "Fool",
+        "Character": "SEES Members",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Magician",
+        "Character": "Kenji Tomochika",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Priestess",
+        "Character": "Fuuka Yamagishi",
+        "Other SL Rank": "Fortune Rank 1",
+        "Social Stat Req": "Courage Rank 6",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Empress",
+        "Character": "Mitsuru Kirijo",
+        "Other SL Rank": "",
+        "Social Stat Req": " Academic Rank 6",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Emperor",
+        "Character": "Hidetoshi Odagari",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Hierophant",
+        "Character": "Bunkichi Kitamura",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Lovers",
+        "Character": "Yukari Takeba",
+        "Other SL Rank": "",
+        "Social Stat Req": "Charm Rank 6 ",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Chariot",
+        "Character": "Kazushi Miamoto",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Justice",
+        "Character": "Chihiro Fushimi",
+        "Other SL Rank": "Emperor Rank 1\n",
+        "Social Stat Req": "",
+        "Prereq": "Yes",
+        "Preq Desc": " After joining the Student Council, talk to her across 3 separate days prior to be able to initiate Social Link on the 4th interaction (you must invite her to hang out on the third day, or you have to repeat the third day's invitation talk again)"
+    },
+    {
+        "Arcana": "Hermit",
+        "Character": "Maya",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Fortune",
+        "Character": "Keisuke Hiraga",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Strength",
+        "Character": "Yuko Nishiwaki",
+        "Other SL Rank": "Chariot Rank 2 ",
+        "Social Stat Req": "",
+        "Prereq": "Yes",
+        "Preq Desc": "Talk 2 twice"
+    },
+    {
+        "Arcana": "Hanged-Man",
+        "Character": "Maiko Oohashi",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "Yes",
+        "Preq Desc": "Requires having given her Weird Takoyaki & Mad Bull prior (Weird Takoyaki can be purchased from Octopia at Iwatodai Station Strip Mall 1F, and Mad Bull from the vending machine at Iwatodai Station), and told her you'll play with her."
+    },
+    {
+        "Arcana": "Death",
+        "Character": "Pharos",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Temperance",
+        "Character": "Bebe",
+        "Other SL Rank": "Hierophant Rank 3\n",
+        "Social Stat Req": "Academic Rank 2 ",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Devil",
+        "Character": "President Tanaka",
+        "Other SL Rank": "Hermit Rank 4\n",
+        "Social Stat Req": "Charm Rank 4\n",
+        "Prereq": "Yes",
+        "Preq Desc": " Need to pay him \u00a520,000, then \u00a510,000 twice more across 3 separate days to initiate Social Link"
+    },
+    {
+        "Arcana": "Tower",
+        "Character": "Mutatsu",
+        "Other SL Rank": "Strength Rank 4 ",
+        "Social Stat Req": "Courage Rank 2 ",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Star",
+        "Character": "Mamoru Hayase",
+        "Other SL Rank": "",
+        "Social Stat Req": "Courage Rank 4",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Moon",
+        "Character": "Nozomi Suemitsu",
+        "Other SL Rank": "Magician Rank 3\n ",
+        "Social Stat Req": "Charm Rank 2 \n ",
+        "Prereq": "Yes",
+        "Preq Desc": "Requires Odd Morsel (Found in Tartarus - 1st Block, Thebel Treasure Chests)\n Must Answer His Questions Correctly: Pheromone Coffee, Red, Hagakure Bowl"
+    },
+    {
+        "Arcana": "Sun",
+        "Character": "Akinari Kamiki",
+        "Other SL Rank": "Hanged-Man Rank 3\n",
+        "Social Stat Req": "Academic Rank 4 \n",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Judgment",
+        "Character": "SEES Members",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    },
+    {
+        "Arcana": "Aeon",
+        "Character": "Aigis",
+        "Other SL Rank": "",
+        "Social Stat Req": "",
+        "Prereq": "No",
+        "Preq Desc": ""
+    }
+]
