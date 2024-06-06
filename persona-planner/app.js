@@ -3,11 +3,12 @@ const express = require("express");
 const fs = require('fs');
 const app = express();
 
-// Parse Each JSON File Separately: UPDATE
-const socialLinkAvailData = JSON.parse(fs.readFileSync('socialLinkAvail.json'));
-const linkEpisodeData = JSON.parse(fs.readFileSync('linkEpisode.json'));
-const socialLinkUnlockCriteriaData = JSON.parse(fs.readFileSync('socialLinkUnlockCriteria.json'));
-// Defining Routes：UPDATE NAMES
+// Parse Each JSON File Separately
+const socialLinkAvailData = JSON.parse(fs.readFileSync('social_links_avail.json'));
+const linkEpisodeData = JSON.parse(fs.readFileSync('link_eps_avail.json'));
+const socialLinkUnlockCriteriaData = JSON.parse(fs.readFileSync('sl_unlock_criteria.json'));
+
+// Defining Routes：
 app.get('/social-link-avail', (req, res) => {
     // Render HTML template and pass social link availability data as a variable
     res.render('social-link-avail-template', { socialLinkAvailData });
