@@ -1,0 +1,242 @@
+[
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "04/09",
+        "End Date": "04/17"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "05/01",
+        "End Date": "05/01"
+    },
+    {
+        "Classification": "Holiday",
+        "Time of Day": "Day, Evening",
+        "Start Date": "05/03",
+        "End Date": "05/04"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "05/09",
+        "End Date": "2009/05/09"
+    },
+    {
+        "Classification": "Upcoming Exam",
+        "Time of Day": "Day",
+        "Start Date": "05/11",
+        "End Date": "05/15"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "05/18",
+        "End Date": "05/23"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/06/08",
+        "End Date": "2009/06/08"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Evening",
+        "Start Date": "2009/06/13",
+        "End Date": "2009/06/13"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/06/20",
+        "End Date": "2009/06/20"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/07/07",
+        "End Date": "2009/07/07"
+    },
+    {
+        "Classification": "Upcoming Exam",
+        "Time of Day": "Day",
+        "Start Date": "07/06",
+        "End Date": "07/10"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/07/14",
+        "End Date": "2009/07/17"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/07/18",
+        "End Date": "2009/07/18"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/07/20",
+        "End Date": "2009/07/22"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Evening",
+        "Start Date": "2009/07/23",
+        "End Date": "2009/07/23"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/07/23",
+        "End Date": "2009/08/02"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/08/06",
+        "End Date": "2009/08/06"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/08/10",
+        "End Date": "2009/08/14"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/08/15",
+        "End Date": "2009/08/15"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/08/16",
+        "End Date": "2009/08/16"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/09/05",
+        "End Date": "2009/09/05"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/09/19",
+        "End Date": "2009/09/20"
+    },
+    {
+        "Classification": "Holiday",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/09/21",
+        "End Date": "2009/09/23"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/10/04",
+        "End Date": "2009/10/04"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/10/05",
+        "End Date": "2009/10/05"
+    },
+    {
+        "Classification": "Upcoming Exam",
+        "Time of Day": "Day",
+        "Start Date": "2009/10/5",
+        "End Date": "2009/10/9"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/10/13",
+        "End Date": "2009/10/16"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/11/03",
+        "End Date": "2009/11/03"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/11/05",
+        "End Date": "2009/11/05"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/11/09",
+        "End Date": "2009/11/09"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/11/17",
+        "End Date": "2009/11/19"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/11/20",
+        "End Date": "2009/11/20"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/11/24",
+        "End Date": "2009/11/26"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/11/27",
+        "End Date": "2009/11/27"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2009/12/03",
+        "End Date": "2009/12/03"
+    },
+    {
+        "Classification": "Upcoming Exam",
+        "Time of Day": "Day",
+        "Start Date": "2009/12/7",
+        "End Date": "2009/12/11"
+    },
+    {
+        "Classification": "Extended Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/12/14",
+        "End Date": "2009/12/18"
+    },
+    {
+        "Classification": "Full-Day Story Event",
+        "Time of Day": "Day, Evening",
+        "Start Date": "2009/12/24",
+        "End Date": "2009/12/24"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Evening",
+        "Start Date": "2009/12/31",
+        "End Date": "2009/12/31"
+    },
+    {
+        "Classification": "Partial Day Story Event",
+        "Time of Day": "Day",
+        "Start Date": "2010/01/01",
+        "End Date": "2010/01/01"
+    }
+]

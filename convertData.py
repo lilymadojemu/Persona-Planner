@@ -13,3 +13,5 @@ csv_to_json("Social_Links_Avail.csv", "social_links_avail.json")
 csv_to_json("Link_Eps_Avail.csv", "link_eps_avail.json")
 
 csv_to_json("Social_Link_Unlock_Criteria.csv", "sl_unlock_criteria.json")
+
+csv_to_json("Calendar_Events.csv", "calendar_events.json")

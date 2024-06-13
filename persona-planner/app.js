@@ -7,6 +7,7 @@ const app = express();
 const socialLinkAvailData = JSON.parse(fs.readFileSync('social_links_avail.json'));
 const linkEpisodeData = JSON.parse(fs.readFileSync('link_eps_avail.json'));
 const socialLinkUnlockCriteriaData = JSON.parse(fs.readFileSync('sl_unlock_criteria.json'));
+const calendarData = JSON.parse(fs.readFileSync('calendar_events.json'));
 
 // Defining Routes：
 app.get('/social-link-avail', (req, res) => {
@@ -22,6 +23,11 @@ app.get('/link-episode', (req, res) => {
 app.get('/social-link-unlock-criteria', (req, res) => {
     // Render HTML template and pass social link unlock criteria data as a variable
     res.render('social-link-unlock-criteria-template', { socialLinkUnlockCriteriaData });
+});
+
+app.get('/calendar-events', (req, res) => {
+    // Render HTML template and pass social link unlock criteria data as a variable
+    res.render('calendar-events-template', { calendarData });
 });
 
 // Set up a server
