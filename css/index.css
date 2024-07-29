@@ -1,4 +1,4 @@
-body, html {
+body {
     background: #0044ff;
-    background: linear-gradient(#0044ff 0%);
+    background-color: linear-gradient(#0044ff 0%);
 }
