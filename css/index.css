@@ -1,5 +1,51 @@
 
 body {
-    background: #0044ff;
-    background-color: linear-gradient(#0044ff 0%);
+    background:linear-gradient(to bottom, #00FFE0 0%, #00DFFD 0%, #002999 100%);
+    color:white;
 }
+
+html {
+    height: 100%
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+}
+.dateInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    padding-bottom: 20px;
+}
+#date {
+    text-align: center;
+}
+.socialStats{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap:10px;
+}
+
+button {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border:none;
+    /* https://stackoverflow.com/questions/67841090/how-to-align-a-button-to-the-center-of-the-screen-html */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+}
+button:hover {
+    background-color: #002999;
+    color: white;
+}
+
+/* nav {
+
+} */

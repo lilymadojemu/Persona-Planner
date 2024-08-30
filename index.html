@@ -10,19 +10,53 @@
     </head>
     <body>
       <!-- Navigation Bar -->
-      <nav >
+      <nav>
+
       </nav>
       
       <!-- Website Title & Subtitle-->
       <h1> Persona Planner</h1>
-      <h4> Making your playthorough a little bit more bareable lol</h4>
-
-      <!-- Date input -->
-      <!-- Social Stat Input -->
-      <!-- Social Link Progress -->
-       
+      <h2>Enter your information for a personalized calendar</h2>
+      <form>
+        <fieldset>
+          <legend></legend>
+          <!-- Date input -->
+          <div class="dateInput">
+            <label for="Date">Date</label><br>
+            <input type="text" id="date" name="date"><br>
+          </div>
+          <!-- Social Stat Input -->
+          <div class="socialStats">
+            <label for="Academics">Academics</label><br>
+            <input type="text" id="academics" name="academics"><br>
+            <label for="Charm">Charm</label><br>
+            <input type="text" id="charm" name="charm"><br>
+            <label for="Courage">Courage</label><br>
+            <input type="text" id="courage" name="courage"><br>
+          </div>
+        </fieldset>
+        <!-- Social Link Progress -->
+        <template id="socialLinkRankTemplate">
+          <fieldset>
+            <legend>Social Link Rank</legend>
+            <!-- Characters -->
+             <label for="characterName"></label>
+             <input type="text" id="socialLinkRank" name="socialLinkRank">
+          </fieldset>
+        </template>
+        <!-- Link Episode Progress -->
+        <template id="LinkEpisodeProgressTemplate">
+          <fieldset>
+            <legend>Link Episode Progress</legend>
+            <label for="characterName"></label>
+            <input type="text" id="linkEpisodeProgress" name="linkEpisodeProgress">
+          </fieldset>
+        </template>
+        <button type="submit">Submit</button>
+      </form>
       <!-- Website Footer -->
       <footer>
+
       </footer>           
     </body>
 </html>
