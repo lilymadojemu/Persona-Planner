@@ -6,33 +6,29 @@
         <script defer src="js/app.js"></script>
         <!-- Css file -->
         <link rel="stylesheet" href="css/index.css">
-
     </head>
     <body>
       <!-- Navigation Bar -->
       <nav>
-
       </nav>
-      
       <!-- Website Title & Subtitle-->
-      <h1> Persona Planner</h1>
-      <h2>Enter your information for a personalized calendar</h2>
+      <h1> Persona Planner: <br>Persona 3 Reload</h1>
+      <h3>Enter your information for a personalized calendar</h3>
       <form>
         <fieldset>
-          <legend></legend>
           <!-- Date input -->
           <div class="dateInput">
             <label for="Date">Date</label><br>
-            <input type="text" id="date" name="date"><br>
+            <input type="text" id="date" name="date" placeholder="YYYY/MM/DD"><br>
           </div>
           <!-- Social Stat Input -->
           <div class="socialStats">
             <label for="Academics">Academics</label><br>
-            <input type="text" id="academics" name="academics"><br>
+            <input type="text" id="academics" name="academics" placeholder="1-3"><br>
             <label for="Charm">Charm</label><br>
-            <input type="text" id="charm" name="charm"><br>
+            <input type="text" id="charm" name="charm" placeholder="1-3"><br>
             <label for="Courage">Courage</label><br>
-            <input type="text" id="courage" name="courage"><br>
+            <input type="text" id="courage" name="courage" placeholder="1-3"><br>
           </div>
         </fieldset>
         <!-- Social Link Progress -->
@@ -41,7 +37,7 @@
             <legend>Social Link Rank</legend>
             <!-- Characters -->
              <label for="characterName"></label>
-             <input type="text" id="socialLinkRank" name="socialLinkRank">
+             <input type="text" id="socialLinkRank" name="socialLinkRank" placeholder="Rank 0-10">
           </fieldset>
         </template>
         <!-- Link Episode Progress -->
@@ -49,7 +45,7 @@
           <fieldset>
             <legend>Link Episode Progress</legend>
             <label for="characterName"></label>
-            <input type="text" id="linkEpisodeProgress" name="linkEpisodeProgress">
+            <input type="text" id="linkEpisodeProgress" name="linkEpisodeProgress" placeholder="Episode 0-5">
           </fieldset>
         </template>
         <button type="submit">Submit</button>
