@@ -1,9 +1,12 @@
-
+@font-face {
+    font-family:"FOT-Skip_Std_B";
+    src: url("fonts/FOT-Skip_Std_B.otf")
+}
 body {
     background:linear-gradient(to bottom, #00FFE0 0%, #00DFFD 0%, #002999 100%);
     color:white;
+    font-family:"FOT-Skip_Std_B";
 }
-
 html {
     height: 100%
 }
@@ -11,7 +14,7 @@ html {
 h1, h2 {
     text-align: center;
     color: white;
-    font-family: fantasy;
+    font-size: 48;
 }
 .dateInput {
     display: flex;
@@ -45,6 +48,7 @@ button:hover {
     background-color: #002999;
     color: white;
 }
+
 
 /* nav {
 
