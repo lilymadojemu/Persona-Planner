@@ -39,12 +39,14 @@
           </div>
         </fieldset>
         <!-- Social Link Progress -->
-        <template id="socialLinkRankTemplate">
+        <template id="socialLinkCharacter">
           <fieldset>
-            <legend>Social Link Rank</legend>
             <!-- Characters -->
              <label for="characterName"></label>
              <input type="text" id="socialLinkRank" name="socialLinkRank" placeholder="Rank 0-10">
+             <script id="socialLinkData" type="application/json">
+              <%- socialLinkAvailData %>
+            </script>
           </fieldset>
         </template>
         <!-- Link Episode Progress -->

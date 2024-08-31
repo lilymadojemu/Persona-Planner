@@ -3,25 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <!-- JavaScript File -->
-        <script defer src="js/app.js"></script>
-        <script defer src="js/app.js"></script>
+        <script defer src="js/calendarOutput.js"></script>
+        <!-- Css file -->
+        <link rel="stylesheet" href="css/calendarOutput.css">
+        <!-- Change Later -->
+        <link rel="icon" href="PersonaPlannerLogoremovebg.png">
     </head>
     <body>
       <!-- Navigation Bar -->
-      <nav >
-        <!-- Home -->
-        <!-- Credit/Thanks -->
+      <nav>
+        <img id="personaPlanner" src="logo/PersonaPlannerLogoremovebg.png" alt="Persona Planner Logo">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
       </nav>
-      
-      <!-- Website Title & Subtitle-->
-      <h1> Persona Planner</h1>
-      <h4> Making your playthorough a little bit more bareable lol</h4>
-
+      <!-- Template for populate a singular date -->
+      <template id="calendarDay">
+        <!-- Date -->
+        <h3 id="calendarDate"></h3>
+        <!-- if there is an event happening... -->
+        <!-- Type of Event -->
+        <h4 id="eventType"></h4>
+          <!-- Daytime Slot -->
+        <div class="Daytime">
+          <!-- Daytime Slot -->
+          <img id="sunIcon" src="path-to-sun-icon.png" alt="Sun Icon">
+          <!-- character image -->
+          <img id="calendarCharacterImgDay" class="character-img" src="path-to-character-image.png" alt="Character Image">
+          <!-- if event happening, event text -->
+          <p class="eventText"></p>
+        </div>
+        <!-- Nighttime Slot -->
+        <div class="Nighttime">
+          <img id="moonIcon" src="path-to-moon-icon.png" alt="Moon Icon">
+          <!-- character image -->
+          <img id="calendarCharacterImgNight" class="character-img" src="path-to-character-image.png" alt="Character Image">
+          <!-- if event happening, event text -->
+          <p class="eventText"></p>
+        </div>
+      </template>
       <!-- Output of a calendar with the social links in their necessary order -->
-       
-      <!-- Website Footer -->
-      <footer>
-      </footer>           
+       <div id="calendarContainer" class="calendar">
+        <h3>CALENDAR</h3>
+        <!-- Month -->
+        <h5 class="calendarMonth"></h5>
+        <!-- Year -->
+        <h4 class="year"></h4>
+        <!-- Prev Month -->
+        <a><h5> Previous Month</h5></a>
+         <!-- Next Month -->
+        <a><h5> Next Month </h5></a>
+      </div>
     </body>
 </html>
 
