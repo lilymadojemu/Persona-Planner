@@ -102,3 +102,6 @@ function createSocialLinkCharacter(characterInfo) {
 function addNewSocialLinkCharacter(container, characterElement) {
     container.appendChild(characterElement);
 }
+
+// Trigger to Output the Calendar with Events
+document.addEventListener
