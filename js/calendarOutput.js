@@ -32,6 +32,8 @@ function drawCalendar(monthData) {
     }
   }
 
+  
+
 // This file holds the logic of how the calendar will appear
 // Dummy Code provided by chatgpt
 // Assume we have a function to determine if there's a story event and which characters are available

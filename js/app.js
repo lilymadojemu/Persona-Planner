@@ -1,8 +1,8 @@
 
-const express = require("express");
-// To read the JSON files
-const fs = require('fs');
-const app = express();
+// const express = require("express");
+// // To read the JSON files
+// const fs = require('fs');
+// const app = express();
 
 // Parse Each JSON File Separately
 const socialLinkAvailData = JSON.parse(fs.readFileSync('social_links_avail.json'));
