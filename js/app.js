@@ -1,107 +1,123 @@
 
-// const express = require("express");
-// // To read the JSON files
-// const fs = require('fs');
-// const app = express();
 
-// Parse Each JSON File Separately
-const socialLinkAvailData = JSON.parse(fs.readFileSync('social_links_avail.json'));
-const linkEpisodeData = JSON.parse(fs.readFileSync('link_eps_avail.json'));
-const socialLinkUnlockCriteriaData = JSON.parse(fs.readFileSync('sl_unlock_criteria.json'));
-const calendarData = JSON.parse(fs.readFileSync('calendar_events.json'));
+// // Putting a new character's Info on the Page
+// function addNewCharacter() {
+//     const socialLinkCharacterData = new Character();
+//     return socialLinkCharacterData; 
+// }; 
 
-// Defining Routes：
-app.get('/social-link-avail', (req, res) => {
-    // Render HTML template and pass social link availability data as a variable
-    res.render('social-link-avail-template', { socialLinkAvailData });
-});
-app.get('/home', (req, res) => {
-    res.render('home-template', {
-        socialLinkAvailData: JSON.stringify(socialLinkAvailData)
-    });
-});
 
-app.get('/link-episode', (req, res) => {
-    // Render HTML template and pass link episode data as a variable
-    res.render('link-episode-template', { linkEpisodeData });
-});
+// function populateCharacters(socialLinkCharacterData) {
+//     const characterContainer = document.getElementById('socialLinkCharacter');
 
-app.get('/social-link-unlock-criteria', (req, res) => {
-    // Render HTML template and pass social link unlock criteria data as a variable
-    res.render('social-link-unlock-criteria-template', { socialLinkUnlockCriteriaData });
-});
+//     for (const characterKey in socialLinkCharacterData) {
+//         if (socialLinkCharacterData.hasOwnProperty(characterKey)) {
+//             const characterInfo = socialLinkCharacterData[characterKey];
+//             const characterElement = createSocialLinkCharacter(characterInfo);
+//             addNewSocialLinkCharacter(container, characterElement);
+//         }
+//     }
+// };
 
-app.get('/calendar-events', (req, res) => {
-    // Render HTML template and pass social link unlock criteria data as a variable
-    res.render('calendar-events-template', { calendarData });
-});
+const characterName = document.createElement("h2");
+
+// CharacterInfo will contain the information about all the characters from the Social Link Availability JSON Data
+function createSocialLinkCharacters(charactersInfo) {
+    // Grabs a reference to the socialLinkCharacter template:
+    const template = document.querySelector('#socialLinkCharacter');
+    // const clone = template.content.cloneNode(true);
+    // All social links' information
+    console.log(charactersInfo);
+    //
+    //Getting character's Names
+    for (const character in charactersInfo) {
+        const characterName = document.querySelector('#characterName')
+        characterName.textContent = charactersInfo[character].Character
+        template.append(characterName)
+    }
+
+    //Getting Character Images
+
+    // <label for="characterName"></label>
+    // <input type="text" id="socialLinkRank" name="socialLinkRank" placeholder="Rank 0-10">
+
+    // update Dom Elements
+    // const characterDiv = document.createElement('div');
+    // characterDiv.classList.add('character');
+    // // Would just input character image path (standardize it)
+    // const img = document.createElement('img');
+    // img.src = characterInfo.image;
+    // img.alt = characterInfo.name;
+
+    // const name = document.createElement('h3');
+    // name.textContent = characterInfo.name;
+
+    // const rankInput = document.createElement('input');
+    // rankInput.type = 'text';
+    // rankInput.placeholder = 'Rank 0-10';
+    // rankInput.value = characterInfo.rank || '';
+
+    // characterDiv.append(img);
+    // characterDiv.append(name);
+    // characterDiv.append(rankInput);
+
+    // return characterDiv;
+};
+
+function addNewSocialLinkCharacter(container, characterElement) {
+    container.append(characterElement);
+}
 
 // Want characters to populate when webpage loads
 document.addEventListener('DOMContentLoaded', function() {
-    // Access the JSON data embedded in the HTML
-    const socialLinkDataScript = document.getElementById('socialLinkData');
-    const socialLinkCharacterData = JSON.parse(socialLinkDataScript.textContent);
 
+    // Fetching JSON Data：
+
+    // Social Link Availability Data
+    (async () => {
+        const response = await fetch(`http://127.0.0.1:5500/dataHandling/social_links_avail.json`);
+        const socialLinkAvailData = await response.json()
+        const stringifySocialLinkAvailData = JSON.stringify(socialLinkAvailData)
+        const socialLinks = JSON.parse(stringifySocialLinkAvailData);
+        // Creates all characters 
+        createSocialLinkCharacters(socialLinks);
+    })();
+
+    // Link Episode Data
+    (async () => {
+        const response = await fetch(`http://127.0.0.1:5500/dataHandling/link_eps_avail.json`);
+        const linkEpisodeData = await response.json()
+        // console.log(linkEpisodeData)
+    })();
+
+    // Social Link Criteria Data
+    (async () => {
+        const response = await fetch(`http://127.0.0.1:5500/dataHandling/sl_unlock_criteria.json`);
+        const socialLinkUnlockCriteriaData = await response.json()
+        // console.log(socialLinkUnlockCriteriaData)
+    })();
+
+    // Calendar Data
+    (async () => {
+        const response = await fetch(`http://127.0.0.1:5500/dataHandling/calendar_events.json`);
+        const calendarData = await response.json()
+        // console.log(calendarData)
+    })();
+    // for (const key in socialLinkCharacterData) {
+    //     // Need to make sure only new characters are being added to the page
+    //     if (characterName == key) {
+    //         const characterElement = createCharacter(socialLinkCharacterData[key]);
+    //         addNewCharacter(characterElement);
+    //     }
+    // }
     // Populate characters on the page
-    populateCharacters(socialLinkCharacterData);
+    // populateCharacters(socialLinkCharacterData);
 
-    // Put characters on the page
-    for (const key in socialLinkCharacterData) {
-        // Need to make sure only new characters are being added to the page
-        if (characterName == key) {
-            const characterElement = createCharacter(socialLinkCharacterData[key]);
-            addNewCharacter(characterElement);
-        }
-    }
+
+    // Access the JSON data embedded in the HTML
+    // const socialLinkDataScript = document.querySelector('#socialLinkCharacter');
+    // const socialLinkCharacterData = JSON.parse(socialLinkDataScript.textContent);
 });
-// Putting a new character's Info on the Page
-function addNewCharacter() {
-    const socialLinkCharacterData = new Character();
-    return socialLinkCharacterData; 
-}; 
 
-function populateCharacters(socialLinkCharacterData) {
-    const characterContainer = document.getElementById('socialLinkCharacter');
-
-    for (const characterKey in socialLinkCharacterData) {
-        if (socialLinkCharacterData.hasOwnProperty(characterKey)) {
-            const characterInfo = socialLinkCharacterData[characterKey];
-            const characterElement = createSocialLinkCharacter(characterInfo);
-            addNewSocialLinkCharacter(container, characterElement);
-        }
-    }
-};
-
-function createSocialLinkCharacter(characterInfo) {
-    // Grabs a reference to the socialLinkCharacter template:
-    const template = document.querySelector('#socialLinkCharacter');
-    const clone = template.content.cloneNode(true);
-    // update Dom Elements
-
-    const characterDiv = document.createElement('div');
-    characterDiv.classList.add('character');
-    // Would just input character image path (standardize it)
-    const img = document.createElement('img');
-    img.src = characterInfo.image;
-    img.alt = characterInfo.name;
-
-    const name = document.createElement('h3');
-    name.textContent = characterInfo.name;
-
-    const rankInput = document.createElement('input');
-    rankInput.type = 'text';
-    rankInput.placeholder = 'Rank 0-10';
-    rankInput.value = characterInfo.rank || '';
-
-    characterDiv.appendChild(img);
-    characterDiv.appendChild(name);
-    characterDiv.appendChild(rankInput);
-
-    return characterDiv;
-};
-function addNewSocialLinkCharacter(container, characterElement) {
-    container.appendChild(characterElement);
-}
-
-// Trigger to Output the Calendar with Events
-document.addEventListener
+// // Trigger to Output the Calendar with Events
+// document.addEventListener
